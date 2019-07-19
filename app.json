@@ -1,0 +1,13 @@
+{
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {},
+  "formation": {},
+  "name": "word-frequency-fullstack-app",
+  "scripts": {},
+  "stack": "heroku-18"
+}
