@@ -1,8 +1,18 @@
 # Word Frequency App
 
-React is being used of the front end. Client is the folder name for front end.
+React is being used for the front end. Client is the folder name for front end.
 
-Node express is being used to create the backend
+App is a combination of two components -
+
+1. Input Form - It takes a number and return number of words with highest frequencies
+2. List words - which actualy list all the words
+
+React hooks state is being used to maintain the list of words which get updated every
+time form get submitted.
+
+Node is being used at the backend-
+
+When the request came to fetch the words in a particular no it executes a request, get the text, parse it in to frequecy map and returns it to the client.
 
 ## create-react-app React Project with Node Express Backend
 
